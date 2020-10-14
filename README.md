@@ -20,7 +20,7 @@
 + 可以开机。
 + CPU 在 Intel power gadget 显示频率正常。
 + 内存显示 16G 使用正常。
-+ 声卡通过 `alcid=28` ，可以使用。
++ 声卡通过注入 `alcid=28` ，可以使用。
 + 核心显卡识别，但是显存只显示7MB，曾通过Hackintool应用补丁，但是应用完补丁，就出错，现在依旧不知道如何解决。
 + USB定制还未定制，但可以识别使用。
 + 有线网络正常。
@@ -32,5 +32,5 @@
 ## 更新记录
 + 2020.10.12 ： EFIv2 ： 去除不必要的启动项；更新`opencore`到`0.6.2`；更新`kext驱动`；添加了`SMCBatteryMnager.kext`驱动，状态栏显示电池图标。之前问题依旧存在。
 ----
-+ 本项目基本按照[Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)流程引导设置。
++ 本项目基本按照[Dortania's OpenCore Install Guide](https://dortania.github.io/OpenCore-Install-Guide/)流程设置引导。
 + 途中可能因解决问题加入了一些可能不需要的文件或设置，所以该EFI不为最精简的EFI。
