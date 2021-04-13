@@ -1,4 +1,7 @@
 # R720-15IKBN-opencore
+
+**该项目现在荒废停更，有缘再见。如有需要，推荐前往项目[happylzyy/Hackintosh-Lenovo-R720](https://github.com/happylzyy/Hackintosh-Lenovo-R720)**
+
 ## 前言
 一开始只想用用大佬们弄好的 EFI 玩玩黑苹果，结果下载回来的 opencore efi 都不知道为什么用不了，我找的无一例外的都出现错误。后来看了B站up主@司波图的 opencore 制作演示，我也就想着跟着试着做了这么个EFI。当然这个EFI现在还存在着问题，我也花太多时间在这个EFI上了，已经有点心有余力不足了，现在发布出来希望路过的大佬们能伸出援手来完善这个EFI。
 
@@ -15,7 +18,13 @@
 |网卡     |Realtek 8821AE Wireless LAN 802.11ac PCI-E NIC|
 
 ## 更新记录
-+ 2020.10.12 ： EFIv2 ： 去除不必要的启动项；更新`opencore`到`0.6.2`；更新`kext驱动`；添加了`SMCBatteryMnager.kext`驱动，状态栏显示电池图标。之前问题依旧存在。
+> 2020.10.12 ：
+> 
+> + 去除不必要的启动项；
+> + 更新`opencore`到`0.6.2`；
+> + 更新`kext驱动`；
+> + 添加了`SMCBatteryMnager.kext`驱动，状态栏显示电池图标。
+> + 之前问题依旧存在。
 
 ## 驱动情况
 + CPU 在 Intel power gadget 显示频率正常。
